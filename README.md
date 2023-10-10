@@ -53,5 +53,5 @@ Using the above algorithm with the example [9, 11, 8, 5, 7, 10], the function wi
 Here is a flowchart for the pseudocode.
 
 <p align="center">
-  <img alt="Pseudocode Flowchart" src="assets/assets/diagrams/PseudoCodeFlowChart.png" width="500px" />
+  <img alt="Pseudocode Flowchart" src="assets/diagrams/PseudoCodeFlowChart.png" width="500px" />
 </p>
