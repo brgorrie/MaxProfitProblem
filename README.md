@@ -55,3 +55,22 @@ Here is a flowchart for the pseudocode.
 <p align="center">
   <img alt="Pseudocode Flowchart" src="assets/diagrams/PseudoCodeFlowChart.png" width="500px" />
 </p>
+
+How It Works
+1. Start by initializing minPrice to the first price in the array. This will keep track of the lowest price we've seen so far.
+2. Initialize maxProfit to 0. This will keep track of the highest profit we've found.
+3. Iterate through the list of prices.
+    3.1 If the current price is less than our stored minPrice, update minPrice.
+    3.2 Otherwise, calculate the potential profit by subtracting the minPrice from the current price. If this potential profit is greater than the current maxProfit, update maxProfit.
+6. Return maxProfit at the end of the function.
+
+Using the provided example, [9, 11, 8, 5, 7, 10]:
+
+- On day 1: Price is 9 (set as initial minPrice)
+- On day 2: Profit is 11-9=2
+- On day 3: Price is 8 (minPrice changes from 9 to 8)
+- On day 4: Price is 5 (minPrice changes from 8 to 5)
+- On day 5: Profit is 7-5=2
+- On day 6: Profit is 10-5=5 (highest profit found)
+- Result: 5 (Buy at 5 and sell at 10)
+
