@@ -27,6 +27,8 @@ To solve the problem efficiently, we can do it in O(n) time. Here's how:
 2. **Calculate Potential Profit Daily:** For each day, we'll calculate the potential profit by subtracting the current day's price with the minimum stock price we've seen. This gives us the profit we'd get if we sold on the current day.
 3. **Update Maximum Profit:** We'll keep track of the maximum profit we can get. If the potential profit of the current day is greater than the maximum profit we've seen so far, we'll update it.
 
+The following is the pseudocode for the efficient approach. 
+
 ```pseudocode
 
 function maxProfit(prices: array of numbers) -> number:
