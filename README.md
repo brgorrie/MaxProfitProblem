@@ -60,9 +60,9 @@ How It Works
 1. Start by initializing minPrice to the first price in the array. This will keep track of the lowest price we've seen so far.
 2. Initialize maxProfit to 0. This will keep track of the highest profit we've found.
 3. Iterate through the list of prices.
-    3.1 If the current price is less than our stored minPrice, update minPrice.
-    3.2 Otherwise, calculate the potential profit by subtracting the minPrice from the current price. If this potential profit is greater than the current maxProfit, update maxProfit.
-6. Return maxProfit at the end of the function.
+    - If the current price is less than our stored minPrice, update minPrice.
+    - Otherwise, calculate the potential profit by subtracting the minPrice from the current price. If this potential profit is greater than the current maxProfit, update maxProfit.
+4. Return maxProfit at the end of the function.
 
 Using the provided example, [9, 11, 8, 5, 7, 10]:
 
