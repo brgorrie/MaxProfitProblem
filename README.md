@@ -50,3 +50,8 @@ function maxProfit(prices: array of numbers) -> number:
 
 Using the above algorithm with the example [9, 11, 8, 5, 7, 10], the function will indeed return a max profit of 5 (buy at 5 and sell at 10).
 
+Here is a flowchart for the pseudocode.
+
+<p align="center">
+  <img alt="Pseudocode Flowchart" src="assets/assets/diagrams/PseudoCodeFlowChart.png" width="500px" />
+</p>
